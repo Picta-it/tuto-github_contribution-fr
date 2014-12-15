@@ -16,6 +16,9 @@ Mais vous pourriez très bien contribuer au noyau de [Linux}(https://github.com/
 
 Mais pour apprendre, on va rester sur ce dépôt.
 
+## Pré-requis
+Pour effectuer ce tutoriel, vous devez installer [Git](http://git-scm.com/download).
+
 ## Création d'un compte GitHub
 
 Vous pouvez passer par [ici](https://github.com/join).
@@ -31,11 +34,7 @@ Sinon, si vous êtes déjà connecté, cliquez [là](https://github.com/Picta-it
 Vous pouvez vérifier sur votre espace. Vous disposez maintenant du projet **tuto-github_contribution-fr**.
 
 ## Pull du projet
-Maintenant, que vous avez une copie du projet sur GitHub, vous allez le récupérer pour le modifier.
-
-Donc, sur votre Pc ou Mac. vous installez [Git](http://git-scm.com/download).
-
-Une fois installé, ouvrez un terminal, allez dans votre espace de travail et faites.
+Ouvrez un terminal, allez dans votre espace de travail et faites.
 ```sh
 # Remplacer <Votre compte> par votre nom de compte
 git clone https://github.com/<Votre compte>/tuto-github_contribution-fr
