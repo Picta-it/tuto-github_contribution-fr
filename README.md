@@ -19,6 +19,8 @@ Mais pour apprendre, on va rester sur ce dépôt.
 ## Pré-requis
 Pour effectuer ce tutoriel, vous devez installer [Git](http://git-scm.com/download).
 
+Pour plus d'information sur le fonctionnement de Git, vous pouvez aller vous [ici](https://github.com/Picta-it/tuto-git-fr).
+
 ## Création d'un compte GitHub
 
 Vous pouvez passer par [ici](https://github.com/join).
