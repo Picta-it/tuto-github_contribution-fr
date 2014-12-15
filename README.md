@@ -11,10 +11,10 @@ Les étapes sont les suivantes :
 * Upload du projet
 * Création de la PR - Pull Request (on propose les changements au projet)
 
-Pour notre exemple, on va contribuer au dépôt de [test](https://github.com/Picta-it/test).
+Pour notre exemple, on va contribuer à ce [dépôt](https://github.com/Picta-it/tuto-github_contribution-fr).
 Mais vous pourriez très bien contribuer au noyau de [Linux}(https://github.com/torvalds/linux).
 
-Mais pour apprendre, on va travailler sur le projet de test.
+Mais pour apprendre, on va rester sur ce dépôt.
 
 ## Création d'un compte GitHub
 
@@ -25,10 +25,10 @@ Pour l'explication, GitHub correspond à site Internet qui fonctionnne autour de
 ## Fork d'un projet
 Il s'agit de la copie d'un projet vers votre espace personnel.
 
-Allez [ici](https://github.com/Picta-it/test) et cliquez sur **Fork** en haut à droite.
-Sinon, si vous êtes déjà connecté, cliquez [là](https://github.com/Picta-it/test/fork).
+Allez [ici](https://github.com/Picta-it/tuto-github_contribution-fr) et cliquez sur **Fork** en haut à droite.
+Sinon, si vous êtes déjà connecté, cliquez [là](https://github.com/Picta-it/tuto-github_contribution-fr/fork).
 
-Vous pouvez vérifier sur votre espace. Vous disposez maintenant de du projet **test**.
+Vous pouvez vérifier sur votre espace. Vous disposez maintenant du projet **tuto-github_contribution-fr**.
 
 ## Pull du projet
 Maintenant, que vous avez une copie du projet sur GitHub, vous allez le récupérer pour le modifier.
@@ -38,16 +38,16 @@ Donc, sur votre Pc ou Mac. vous installez [Git](http://git-scm.com/download).
 Une fois installé, ouvrez un terminal, allez dans votre espace de travail et faites.
 ```sh
 # Remplacer <Votre compte> par votre nom de compte
-git clone https://github.com/<Votre compte>/test
+git clone https://github.com/<Votre compte>/tuto-github_contribution-fr
 ```
 
 Par exemple, pour l'utilisateur Toto
 ```sh
-git clone https://github.com/toto/test
+git clone https://github.com/toto/tuto-github_contribution-fr
 ```
 
 ## Modification du projet
-Ouvrez README.md et ajoutez votre nom à la suite du fichier et sauvegardez.
+Créez un fichier **<votre nom>**.md avec le contenu que vous souhaitez dans le répertoire /contribs.
 
 ## Commit de nos modifications
 Pour sauvegarder, on va ajouter nos modifications au commit.
@@ -55,7 +55,7 @@ Un commit peut être vu comme un regroupement de modifications apportées à un 
 
 Donc, depuis le répertoire, on fait
 ```sh
-git add README.md
+git add <votre nom>.md
 git commit -m "Contribution au projet de test"
 ```
 
@@ -69,7 +69,7 @@ git push origin master
 ## On soumet une Pull Request
 Maintenant que l'on a fait toutes nos modifications, on va les soumettre au projet.
 
-Allez sur la page du [projet](https://github.com/Picta-it/test) et cliquez sur [Pull Request](https://github.com/Picta-it/test/pulls).
+Allez sur la page du [projet](https://github.com/Picta-it/tuto-github_contribution-fr) et cliquez sur [Pull Request](https://github.com/Picta-it/tuto-github_contribution-fr/pulls).
 
 Ensuite,
 * cliquez **New Pull Request**
